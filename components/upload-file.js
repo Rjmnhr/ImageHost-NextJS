@@ -34,7 +34,7 @@ const UploadFile = () => {
     formData.append("image", image);
 
     axios
-      .post("https://imagehost-renjithcmrenju.b4a.run//api/image", formData, {
+      .post("https://imagehost-renjithcmrenju.b4a.run/api/image", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
@@ -79,7 +79,7 @@ const UploadFile = () => {
         <div className="flex gap-3 justify-center">
           <input
             type="text"
-            className="p-2 outline-none text-white bg-black"
+            className="p-2 outline-none text-blue-300 bg-black"
             value={url}
             readOnly
           />
