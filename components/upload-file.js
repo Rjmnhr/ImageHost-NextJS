@@ -34,7 +34,7 @@ const UploadFile = () => {
     formData.append("image", image);
 
     axios
-      .post("https://imagehost-renjithcmrenju.b4a.run/api/image", formData, {
+      .post("https://imagehost-t74lbtpv.b4a.run/api/image", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
