@@ -100,7 +100,7 @@ const UploadFile = () => {
 
 const getData = async () => {
   const response = await fetch(
-    "https://imagehost-renjithcmrenju.b4a.run/api/image"
+    "https://imagehostnew-a1u9kw0x.b4a.run/api/image"
   );
   return response.json();
 };
